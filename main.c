@@ -1,5 +1,7 @@
 #include <stdio.h>
 int main () {
-printf("Hello, Git!\n");
+int a = 0, b = 0;
+printf("Enter two integers: ");
+scanf("%d%d", &a, &b);
 return 0;
 }
